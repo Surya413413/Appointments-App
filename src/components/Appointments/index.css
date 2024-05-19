@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second-container {
+  background-color: white;
+  height: 70vh;
+  width: 85vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.inner-in-second-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.button-style {
+  background-color: #9796f0;
+  color: white;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+.margin-style {
+  margin: 10px;
+}
+.headding-style {
+  margin: 10px;
+  margin-left: 30px;
+}
+.appoint-Starred-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.Starred-style-button {
+  background-color: white;
+  border-radius: 10px;
+  color: #9796f0;
+  border-color: #9796f0;
+  height: 40px;
+  width: 90px;
+}
+.unorder-list-container {
+  display: flex;
+  margin-left: 10px;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
